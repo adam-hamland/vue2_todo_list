@@ -2,7 +2,7 @@
   <div class="hello container-fluid">
     <h1>{{ msg }}</h1>
         <form @submit.prevent="addTodo">
-            <label for="newTodo">Add New Item</label>
+            <label for="newTodo">New Item</label>
             <input v-model="newTodo" type="text" name="newTodo" id="newTodo" value="">
             <button type="submit" name="button" class="btn btn-primary">Add</button>
         </form>

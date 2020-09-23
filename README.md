@@ -20,6 +20,16 @@ npm run build
 npm run lint
 ```
 
+### Compiles and hot-reloads for desktop development
+```
+npm run electron:serve
+```
+
+### Compiles and minifies for desktop production
+```
+npm run electron:serve
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 # vue2_todo_list
